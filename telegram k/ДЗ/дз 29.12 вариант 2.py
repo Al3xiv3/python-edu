@@ -3,10 +3,11 @@
 """
 
 n = int(input())
-s = set()
+lst1 = list()
 
 for i in range(n):
     x = int(input())
-    s.add(x)
-for e in s:
+    if x not in lst1:
+        lst1.append(x)
+for e in lst1:
     print(e)
