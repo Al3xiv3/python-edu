@@ -11,8 +11,13 @@
 '''
 
 
-x = 'ЛОМЛОМГОЛОМПОЛОМЛОМЛОМ'
+def f(n):
+  n = n.split()
+  lst_1 = []
+  for i in n:
+    s = i[0]
+    lst_1.append(s)
+  return lst_1
 
+print(f("leoeod eodo doo"))
 
-
-print(x.count('ЛОМ'))
