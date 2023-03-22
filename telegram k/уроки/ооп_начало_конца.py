@@ -28,3 +28,6 @@ car.drive()
 print(car.max_speed)
 car.set_speed(500)
 print(car.max_speed)
+
+
+print(type(1))
